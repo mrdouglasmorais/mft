@@ -457,7 +457,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 # Intro Section
 --------------------------------------------------------------*/
 
-#intro {
+#inicio {
   width: 100%;
   height: 100vh;
   background: url(../img/intro-bg.jpg) top center;
@@ -466,7 +466,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   position: relative;
 }
 
-#intro:before {
+#inicio:before {
   content: "";
   background: rgba(160, 8, 127, 0.8);
   position: absolute;
@@ -476,7 +476,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   right: 0;
 }
 
-#intro .intro-container {
+#inicio .intro-container {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -499,7 +499,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   padding: 0 15px;
 }
 
-#intro h1 {
+#inicio h1 {
   color: #fff;
   font-family: "Raleway", sans-serif;
   font-size: 56px;
@@ -507,17 +507,17 @@ body.mobile-nav-active #mobile-nav-toggle {
   text-transform: uppercase;
 }
 
-#intro h1 span {
+#inicio h1 span {
   color: #ADD8E6;
 }
 
-#intro p {
+#inicio p {
   color: #ebebeb;
   font-weight: 700;
   font-size: 20px;
 }
 
-#intro .play-btn {
+#inicio .play-btn {
   width: 94px;
   height: 94px;
   background: radial-gradient(#E02CF5 50%, rgba(160, 8, 127, 0.15) 52%);
@@ -527,7 +527,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   overflow: hidden;
 }
 
-#intro .play-btn::after {
+#inicio .play-btn::after {
   content: '';
   position: absolute;
   left: 50%;
@@ -543,7 +543,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   transition: all 400ms cubic-bezier(0.55, 0.055, 0.675, 0.19);
 }
 
-#intro .play-btn:before {
+#inicio .play-btn:before {
   content: '';
   position: absolute;
   width: 120px;
@@ -566,13 +566,13 @@ body.mobile-nav-active #mobile-nav-toggle {
   background: rgba(198, 16, 0, 0);
 }
 
-#intro .play-btn:hover::after {
+#inicio .play-btn:hover::after {
   border-left: 15px solid #ADD8E6;
   -webkit-transform: scale(20);
   transform: scale(20);
 }
 
-#intro .play-btn:hover::before {
+#inicio .play-btn:hover::before {
   content: '';
   position: absolute;
   left: 50%;
@@ -591,7 +591,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   border-radius: 0;
 }
 
-#intro .about-btn {
+#inicio .about-btn {
   font-family: "Raleway", sans-serif;
   font-weight: 500;
   font-size: 14px;
@@ -608,7 +608,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   border: 2px solid #ADD8E6;
 }
 
-#intro .about-btn:hover {
+#inicio .about-btn:hover {
   background: #ADD8E6;
   color: #fff;
 }
@@ -645,7 +645,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 # About Section
 --------------------------------------------------------------*/
 
-#about {
+#sobre {
   background: url("../img/about-bg.jpg");
   background-size: cover;
   overflow: hidden;
@@ -654,7 +654,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   padding: 60px 0 40px 0;
 }
 
-#about:before {
+#sobre:before {
   content: "";
   background: rgba(160, 8, 127, 0.98);
   position: absolute;
@@ -664,14 +664,14 @@ body.mobile-nav-active #mobile-nav-toggle {
   right: 0;
 }
 
-#about h2 {
+#sobre h2 {
   font-size: 36px;
   font-weight: bold;
   margin-bottom: 10px;
   color: #fff;
 }
 
-#about h3 {
+#sobre h3 {
   font-size: 18px;
   font-weight: bold;
   text-transform: uppercase;
@@ -679,7 +679,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #fff;
 }
 
-#about p {
+#sobre p {
   font-size: 14px;
   margin-bottom: 20px;
   color: #fff;
@@ -689,17 +689,17 @@ body.mobile-nav-active #mobile-nav-toggle {
 # Speakers Section
 --------------------------------------------------------------*/
 
-#speakers {
+#palestrantes {
   padding: 60px 0 30px 0;
 }
 
-#speakers .speaker {
+#palestrantes .speaker {
   position: relative;
   overflow: hidden;
   margin-bottom: 30px;
 }
 
-#speakers .speaker .details {
+#palestrantes .speaker .details {
   background: rgba(160, 8, 127, 0.98);
   position: absolute;
   left: 0;
@@ -710,52 +710,52 @@ body.mobile-nav-active #mobile-nav-toggle {
   transition: all 300ms cubic-bezier(0.645, 0.045, 0.355, 1);
 }
 
-#speakers .speaker .details h3 {
+#palestrantes .speaker .details h3 {
   color: #fff;
   font-size: 22px;
   font-weight: 600;
   margin-bottom: 5px;
 }
 
-#speakers .speaker .details p {
+#palestrantes .speaker .details p {
   color: #fff;
   font-size: 15px;
   margin-bottom: 10px;
   font-style: italic;
 }
 
-#speakers .speaker .details .social {
+#palestrantes .speaker .details .social {
   height: 30px;
 }
 
-#speakers .speaker .details a {
+#palestrantes .speaker .details a {
   color: #fff;
 }
 
-#speakers .speaker .details a:hover {
+#palestrantes .speaker .details a:hover {
   color: #ADD8E6;
 }
 
-#speakers .speaker:hover .details {
+#palestrantes .speaker:hover .details {
   bottom: 0;
 }
 
-#speakers-details {
+#palestrantes-details {
   padding: 60px 0;
 }
 
-#speakers-details .details h2 {
+#palestrantes-details .details h2 {
   color: #E83E8C;
   font-size: 28px;
   font-weight: 700;
   margin-bottom: 10px;
 }
 
-#speakers-details .details .social {
+#palestrantes-details .details .social {
   margin-bottom: 15px;
 }
 
-#speakers-details .details .social a {
+#palestrantes-details .details .social a {
   background: #e9edfb;
   color: #E83E8C;
   line-height: 1;
@@ -767,16 +767,16 @@ body.mobile-nav-active #mobile-nav-toggle {
   padding-top: 9px;
 }
 
-#speakers-details .details .social a:hover {
+#palestrantes-details .details .social a:hover {
   background: #ADD8E6;
   color: #fff;
 }
 
-#speakers-details .details .social a i {
+#palestrantes-details .details .social a i {
   font-size: 18px;
 }
 
-#speakers-details .details p {
+#palestrantes-details .details p {
   color: #E83E8C;
   font-size: 15px;
   margin-bottom: 10px;
@@ -786,11 +786,11 @@ body.mobile-nav-active #mobile-nav-toggle {
 # Schedule Section
 --------------------------------------------------------------*/
 
-#schedule {
+#cronograma {
   padding: 60px 0 60px 0;
 }
 
-#schedule .nav-tabs {
+#cronograma .nav-tabs {
   text-align: center;
   margin: auto;
   display: block;
@@ -798,12 +798,12 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin-bottom: 30px;
 }
 
-#schedule .nav-tabs li {
+#cronograma .nav-tabs li {
   display: inline-block;
   margin-bottom: 0;
 }
 
-#schedule .nav-tabs a {
+#cronograma .nav-tabs a {
   border: none;
   border-radius: 50px;
   font-weight: 600;
@@ -812,39 +812,39 @@ body.mobile-nav-active #mobile-nav-toggle {
   padding: 10px 100px;
 }
 
-#schedule .nav-tabs a.active {
+#cronograma .nav-tabs a.active {
   background-color: #ADD8E6;
   color: #fff;
 }
 
-#schedule .sub-heading {
+#cronograma .sub-heading {
   text-align: center;
   font-size: 18px;
   font-style: italic;
   margin: 0 auto 30px auto;
 }
 
-#schedule .tab-pane {
+#cronograma .tab-pane {
   transition: ease-in-out .2s;
 }
 
-#schedule .schedule-item {
+#cronograma .schedule-item {
   border-bottom: 1px solid #cad4f6;
   padding-top: 15px;
   padding-bottom: 15px;
   transition: background-color ease-in-out 0.3s;
 }
 
-#schedule .schedule-item:hover {
+#cronograma .schedule-item:hover {
   background-color: #fff;
 }
 
-#schedule .schedule-item time {
+#cronograma .schedule-item time {
   padding-bottom: 5px;
   display: inline-block;
 }
 
-#schedule .schedule-item .speaker {
+#cronograma .schedule-item .speaker {
   width: 60px;
   height: 60px;
   overflow: hidden;
@@ -853,7 +853,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin: 0 10px 10px 0;
 }
 
-#schedule .schedule-item .speaker img {
+#cronograma .schedule-item .speaker img {
   height: 100%;
   -webkit-transform: translateX(-50%);
   transform: translateX(-50%);
@@ -861,20 +861,20 @@ body.mobile-nav-active #mobile-nav-toggle {
   transition: all ease-in-out 0.3s;
 }
 
-#schedule .schedule-item h4 {
+#cronograma .schedule-item h4 {
   font-size: 18px;
   font-weight: 600;
   margin-bottom: 5px;
 }
 
-#schedule .schedule-item h4 span {
+#cronograma .schedule-item h4 span {
   font-style: italic;
   color: #E83E8C;
   font-weight: normal;
   font-size: 16px;
 }
 
-#schedule .schedule-item p {
+#cronograma .schedule-item p {
   font-style: italic;
   color: #E83E8C;
   margin-bottom: 0;
@@ -884,21 +884,21 @@ body.mobile-nav-active #mobile-nav-toggle {
 # Venue Section
 --------------------------------------------------------------*/
 
-#venue {
+#local {
   padding: 60px 0;
 }
 
-#venue .container-fluid {
+#local .container-fluid {
   margin-bottom: 3px;
 }
 
-#venue .venue-map iframe {
+#local .venue-map iframe {
   width: 100%;
   height: 100%;
   min-height: 300px;
 }
 
-#venue .venue-info {
+#local .venue-info {
   background: url("../img/venue-info-bg.jpg") top center no-repeat;
   background-size: cover;
   position: relative;
@@ -906,7 +906,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   padding-bottom: 60px;
 }
 
-#venue .venue-info:before {
+#local .venue-info:before {
   content: "";
   background: rgba(160, 8, 127, 0.98);
   position: absolute;
@@ -916,32 +916,32 @@ body.mobile-nav-active #mobile-nav-toggle {
   right: 0;
 }
 
-#venue .venue-info h3 {
+#local .venue-info h3 {
   font-size: 36px;
   font-weight: 700;
   color: #fff;
 }
 
-#venue .venue-info p {
+#local .venue-info p {
   color: #fff;
   margin-bottom: 0;
 }
 
-#venue .venue-gallery-container {
+#local .venue-gallery-container {
   padding-right: 12px;
 }
 
-#venue .venue-gallery {
+#local .venue-gallery {
   overflow: hidden;
   border-right: 3px solid #fff;
   border-bottom: 3px solid #fff;
 }
 
-#venue .venue-gallery img {
+#local .venue-gallery img {
   transition: all ease-in-out 0.4s;
 }
 
-#venue .venue-gallery:hover img {
+#local .venue-gallery:hover img {
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
 }
@@ -950,17 +950,17 @@ body.mobile-nav-active #mobile-nav-toggle {
 # supporters Section
 --------------------------------------------------------------*/
 
-#supporters {
+#patrocinadores {
   padding: 60px 0;
 }
 
-#supporters .supporters-wrap {
+#patrocinadores .supporters-wrap {
   border-top: 1px solid #e0e5fa;
   border-left: 1px solid #e0e5fa;
   margin-bottom: 30px;
 }
 
-#supporters .supporter-logo {
+#patrocinadores .supporter-logo {
   padding: 30px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -978,12 +978,12 @@ body.mobile-nav-active #mobile-nav-toggle {
   height: 160px;
 }
 
-#supporters .supporter-logo:hover img {
+#patrocinadores .supporter-logo:hover img {
   -webkit-transform: scale(1.2);
   transform: scale(1.2);
 }
 
-#supporters img {
+#patrocinadores img {
   transition: all 0.4s ease-in-out;
 }
 
@@ -1253,17 +1253,17 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 
 @media (min-width: 991px) {
-  #schedule .sub-heading {
+  #cronograma .sub-heading {
     width: 75%;
   }
 }
 
 @media (min-width: 1024px) {
-  #intro {
+  #inicio {
     background-attachment: fixed;
   }
 
-  #about {
+  #sobre {
     background-attachment: fixed;
   }
 
@@ -1298,19 +1298,19 @@ body.mobile-nav-active #mobile-nav-toggle {
     display: inline;
   }
 
-  #intro .intro-container {
+  #inicio .intro-container {
     top: 70px;
   }
 
-  #intro h1 {
+  #inicio h1 {
     font-size: 34px;
   }
 
-  #intro p {
+  #inicio p {
     font-size: 16px;
   }
 
-  #schedule .nav-tabs a {
+  #cronograma .nav-tabs a {
     padding: 8px 60px;
   }
 }
@@ -1330,19 +1330,19 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 @media (max-width: 767px) {
-  #schedule .nav-tabs a {
+  #cronograma .nav-tabs a {
     padding: 8px 50px;
   }
 }
 
 @media (max-width: 574px) {
-  #venue .venue-info h3 {
+  #local .venue-info h3 {
     font-size: 24px;
   }
 }
 
 @media (max-width: 480px) {
-  #schedule .nav-tabs a {
+  #cronograma .nav-tabs a {
     padding: 8px 30px;
   }
 }
