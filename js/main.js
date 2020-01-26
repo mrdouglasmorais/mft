@@ -13,6 +13,7 @@ jQuery(document).ready(function( $ ) {
     return false;
   });
 
+
   // Cabeçalho fixo na rolagem
   $(window).scroll(function() {
     if ($(this).scrollTop() > 100) {
