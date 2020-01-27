@@ -504,12 +504,12 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-family: "Raleway", sans-serif;
   font-size: 56px;
   font-weight: 600;
-  text-transform: uppercase;
+  text-transform: lowercase;
 }
 
-#inicio h1 span {
+/* #inicio h1 span {
   color: #ADD8E6;
-}
+} */
 
 #inicio p {
   color: #ebebeb;
